@@ -86,10 +86,20 @@ h1, h2, h3, h4, p {
     font-style:italic;
     font-weight: 800;
     width: 400px;
-    margin: 40px auto 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 a {
     color:red;
 }
+
+/* @media only screen and (max-width: 767px) {
+    body {
+      font-size: 12px;
+      width: 100%;
+      margin: 0;
+    }
+  } */
